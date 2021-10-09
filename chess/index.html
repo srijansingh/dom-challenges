@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chess</title>
+		<style>
+			.container {
+				width: 100%;
+			}
+			#boxes {
+				margin: 0 auto;
+				display: flex;
+				flex-direction: column;
+				background: white;
+				max-width: 560px;
+				border: 1px solid #a6a6a6;
+			}
+			.row {
+				display: flex;
+			}
+			.box {
+				height: 70px;
+				width: 70px;
+				cursor: pointer;
+				background: white;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div id="boxes"></div>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
